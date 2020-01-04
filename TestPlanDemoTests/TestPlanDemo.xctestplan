@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "9AF58612-663D-48F7-B7AA-F5D6BD3A4D20",
+      "name" : "Configuration 1",
+      "options" : {
+        "language" : "ja",
+        "region" : "JP"
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:TestPlanDemo.xcodeproj",
+        "identifier" : "AD4A774A23A10B8600A25EFD",
+        "name" : "TestPlanDemoTests"
+      }
+    }
+  ],
+  "version" : 1
+}
