@@ -18,12 +18,6 @@ final class RegistrationViewTests: XCTestCase {
         rootView.tapRegistrationButton()
     }
 
-    func testLabelExists() {
-        let registrationView = RegistrationViewPageObject(application: application)
-        XCTAssertTrue(registrationView.registerLabel.exists)
-        XCTAssertTrue(registrationView.registrationLabel.exists)
-    }
-
     func testLabelTexts() {
         let registrationView = RegistrationViewPageObject(application: application)
         XCTAssertEqual(localizedString(for: "Register"), registrationView.registerLabel.label)
@@ -32,5 +26,11 @@ final class RegistrationViewTests: XCTestCase {
 
     private func localizedString(for key: String) -> String? {
         return NSLocalizedString(key, tableName: "Localizable", bundle: Bundle(for: RegistrationViewTests.self), value: "", comment: "")
+    }
+
+    func testLabelExists() {
+        let registrationView = RegistrationViewPageObject(application: application)
+        XCTAssertTrue(registrationView.registerLabel.exists)
+        XCTAssertTrue(registrationView.registrationLabel.exists)
     }
 }
