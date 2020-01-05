@@ -1,11 +1,19 @@
 {
   "configurations" : [
     {
-      "id" : "9AF58612-663D-48F7-B7AA-F5D6BD3A4D20",
-      "name" : "Configuration 1",
+      "id" : "335637D9-71E5-4A92-8832-E926BF770551",
+      "name" : "Japan",
       "options" : {
         "language" : "ja",
         "region" : "JP"
+      }
+    },
+    {
+      "id" : "9AF58612-663D-48F7-B7AA-F5D6BD3A4D20",
+      "name" : "America",
+      "options" : {
+        "language" : "en",
+        "region" : "US"
       }
     }
   ],
@@ -18,6 +26,13 @@
         "containerPath" : "container:TestPlanDemo.xcodeproj",
         "identifier" : "AD4A774A23A10B8600A25EFD",
         "name" : "TestPlanDemoTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:TestPlanDemo.xcodeproj",
+        "identifier" : "AD4A775523A10B8600A25EFD",
+        "name" : "TestPlanDemoUITests"
       }
     }
   ],

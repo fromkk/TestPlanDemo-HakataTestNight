@@ -13,6 +13,7 @@ enum Menu: Int, CaseIterable, Equatable, Identifiable {
     var id: Int { return rawValue }
     case price
     case countryCode
+    case registration
 
     var title: String {
         switch self {
@@ -20,6 +21,8 @@ enum Menu: Int, CaseIterable, Equatable, Identifiable {
             return "Price"
         case .countryCode:
             return "Country code"
+        case .registration:
+            return "Registration"
         }
     }
 }
@@ -32,6 +35,8 @@ struct MenuView: View {
                 NavigationLink(menu.title, destination: PriceView())
             } else if menu == .countryCode {
                 NavigationLink(menu.title, destination: CountryCodeView())
+            } else if menu == .registration {
+                NavigationLink(menu.title, destination: RegistrationView())
             } else {
                 EmptyView()
             }

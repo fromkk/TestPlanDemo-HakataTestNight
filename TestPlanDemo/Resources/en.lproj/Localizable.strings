@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  TestPlanDemo
+
+  Created by Kazuya Ueoka on 2020/01/05.
+  Copyright © 2020 fromKK. All rights reserved.
+*/
+
+"Register" = "Register";
+
+"Registration" = "Registration";
