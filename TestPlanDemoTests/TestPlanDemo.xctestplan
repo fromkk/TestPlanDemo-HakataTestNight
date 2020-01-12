@@ -1,19 +1,19 @@
 {
   "configurations" : [
     {
-      "id" : "335637D9-71E5-4A92-8832-E926BF770551",
-      "name" : "Japan",
-      "options" : {
-        "language" : "ja",
-        "region" : "JP"
-      }
-    },
-    {
       "id" : "9AF58612-663D-48F7-B7AA-F5D6BD3A4D20",
       "name" : "America",
       "options" : {
         "language" : "en",
         "region" : "US"
+      }
+    },
+    {
+      "id" : "FB93EB63-E85A-4352-ADBF-AC9376909497",
+      "name" : "Japan",
+      "options" : {
+        "language" : "ja",
+        "region" : "JP"
       }
     }
   ],

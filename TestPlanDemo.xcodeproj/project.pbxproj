@@ -18,6 +18,8 @@
 		AD4A773B23A10B8400A25EFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4A773A23A10B8400A25EFD /* SceneDelegate.swift */; };
 		AD4A774223A10B8600A25EFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD4A774123A10B8600A25EFD /* Assets.xcassets */; };
 		AD4A774523A10B8600A25EFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD4A774323A10B8600A25EFD /* LaunchScreen.storyboard */; };
+		AD8652A823CAC14300C66166 /* DayConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8652A723CAC14300C66166 /* DayConverter.swift */; };
+		AD8652AB23CACA4900C66166 /* DayConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8652AA23CACA4900C66166 /* DayConverterTests.swift */; };
 		ADDE266D23C01AD900D6E8E9 /* CountryCodeEntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDE266C23C01AD900D6E8E9 /* CountryCodeEntityTests.swift */; };
 		ADDE266F23C01B7C00D6E8E9 /* CountryCodeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDE266E23C01B7C00D6E8E9 /* CountryCodeViewModelTests.swift */; };
 		ADDE267223C0720B00D6E8E9 /* PriceViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDE267123C0720B00D6E8E9 /* PriceViewModelTests.swift */; };
@@ -65,6 +67,8 @@
 		AD4A775123A10B8600A25EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD4A775623A10B8600A25EFD /* TestPlanDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPlanDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD4A775C23A10B8600A25EFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD8652A723CAC14300C66166 /* DayConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayConverter.swift; sourceTree = "<group>"; };
+		AD8652AA23CACA4900C66166 /* DayConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayConverterTests.swift; sourceTree = "<group>"; };
 		ADDE266C23C01AD900D6E8E9 /* CountryCodeEntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeEntityTests.swift; sourceTree = "<group>"; };
 		ADDE266E23C01B7C00D6E8E9 /* CountryCodeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCodeViewModelTests.swift; sourceTree = "<group>"; };
 		ADDE267123C0720B00D6E8E9 /* PriceViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceViewModelTests.swift; sourceTree = "<group>"; };
@@ -144,6 +148,7 @@
 		AD4A773723A10B8400A25EFD /* TestPlanDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AD8652A923CAC9FB00C66166 /* Supports */,
 				ADF90FE723BF421B0020CA12 /* Resources */,
 				ADF90FEF23BF46160020CA12 /* Extension */,
 				ADF90FEC23BF43320020CA12 /* Price */,
@@ -166,6 +171,7 @@
 				ADDE266B23C01ACD00D6E8E9 /* CountryCode */,
 				ADDE267023C071EF00D6E8E9 /* Price */,
 				AD4A775123A10B8600A25EFD /* Info.plist */,
+				AD8652AA23CACA4900C66166 /* DayConverterTests.swift */,
 			);
 			path = TestPlanDemoTests;
 			sourceTree = "<group>";
@@ -186,6 +192,14 @@
 				ADF90FEA23BF42A40020CA12 /* RootView.swift */,
 			);
 			path = Root;
+			sourceTree = "<group>";
+		};
+		AD8652A923CAC9FB00C66166 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				AD8652A723CAC14300C66166 /* DayConverter.swift */,
+			);
+			path = Supports;
 			sourceTree = "<group>";
 		};
 		ADDE266B23C01ACD00D6E8E9 /* CountryCode */ = {
@@ -385,6 +399,7 @@
 			files = (
 				ADF90FEE23BF433B0020CA12 /* PriceView.swift in Sources */,
 				AD4A773923A10B8400A25EFD /* AppDelegate.swift in Sources */,
+				AD8652A823CAC14300C66166 /* DayConverter.swift in Sources */,
 				ADF90FF423C016710020CA12 /* CountryCodeView.swift in Sources */,
 				AD3C8EFB23C1D3BD006AF9E9 /* RegistrationView.swift in Sources */,
 				ADF90FEB23BF42A40020CA12 /* RootView.swift in Sources */,
@@ -397,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD8652AB23CACA4900C66166 /* DayConverterTests.swift in Sources */,
 				ADDE266F23C01B7C00D6E8E9 /* CountryCodeViewModelTests.swift in Sources */,
 				ADDE267523C072C300D6E8E9 /* PriceRepositorySpy.swift in Sources */,
 				ADDE266D23C01AD900D6E8E9 /* CountryCodeEntityTests.swift in Sources */,
