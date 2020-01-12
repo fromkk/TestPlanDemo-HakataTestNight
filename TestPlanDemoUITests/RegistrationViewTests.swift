@@ -21,7 +21,7 @@ final class RegistrationViewTests: XCTestCase {
     func testLabelTexts() {
         let registrationView = RegistrationViewPageObject(application: application)
         XCTAssertEqual(localizedString(for: "Register"), registrationView.registerLabel.label)
-        XCTAssertEqual(localizedString(for: "Registration"), registrationView.registrationLabel.label)
+        XCTAssertEqual(localizedString(for: "Register"), registrationView.registrationLabel.label)
     }
 
     private func localizedString(for key: String) -> String? {
