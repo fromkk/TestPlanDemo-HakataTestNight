@@ -7,14 +7,6 @@
         "language" : "en",
         "region" : "US"
       }
-    },
-    {
-      "id" : "08C58241-E318-40E9-B5F3-EA0977779052",
-      "name" : "Japan",
-      "options" : {
-        "language" : "ja",
-        "region" : "JP"
-      }
     }
   ],
   "defaultOptions" : {
