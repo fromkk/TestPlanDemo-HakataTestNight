@@ -9,11 +9,12 @@
 import Foundation
 
 struct DayConverter {
-    static func convert(day: Int, for languageCode: String) -> String {
-        if languageCode == "en" {
+    static func convert(day: Int, for locale: Locale) -> String {
+        if locale.languageCode == "en" {
             let day = day
             let number = NSNumber(value: day)
             let numberFormatter = NumberFormatter()
+            numberFormatter.locale = locale
             numberFormatter.numberStyle = .ordinal
             return numberFormatter.string(from: number)!
         } else {
